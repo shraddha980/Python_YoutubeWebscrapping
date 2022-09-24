@@ -2,24 +2,13 @@ import re
 import urllib.request
 from urllib.request import urlopen as uReq
 from urllib import request, response
-from cleantext import clean
 import pandas as pd
-import scrapetube
-from youtube_comment_scraper_python import *
 from bs4 import BeautifulSoup
 import requests.models
 from flask import Flask
 from flask import render_template
 from flask_cors import cross_origin
 # import mysql.connector
-from sqlalchemy import create_engine, sql
-import pymysql
-import pickle
-import sqlite3
-from pandas.io import sql
-import pymysql
-import pymongo
-import eventlet
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver.common.by import By
