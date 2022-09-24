@@ -28,5 +28,5 @@ pandas.io
 pymysql
 pymongo
 eventlet~=0.33.1
-
+os
 selenium~=3.141.0
