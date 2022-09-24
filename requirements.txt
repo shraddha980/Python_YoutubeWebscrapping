@@ -24,5 +24,4 @@ pymysql~=1.0.2
 pandas.io
 pymysql
 pymongo
-os
 selenium~=3.141.0
