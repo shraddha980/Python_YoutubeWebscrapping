@@ -113,7 +113,7 @@ def results():
             print(e)
             print("handled successfully")
 
-        mydict = {"Title": title, "Views": views, "Date_published": date_published, "Description": description, "Duration": duration, "Tag": tag}
+        mydict = {"Title": title, "Views": views, "Date_published": date_published, "Description": description,"Tag": tag}
         all_data.append(mydict)
     print(all_data)
     df = pd.DataFrame(all_data)
