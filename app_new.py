@@ -40,7 +40,7 @@ def homepage():
 @cross_origin()
 def results():
 
-    chrome_path = r"C:\Users\admin\Downloads\chromedriver.exe"
+    chrome_path = r"/app/.chromedriver/bin/chromedriver"
     driver = webdriver.Chrome(chrome_path)
     driver.get("https://www.youtube.com/c/CampusX-official/videos")
     user_data = driver.find_elements_by_xpath('//*[@id="video-title"]')
